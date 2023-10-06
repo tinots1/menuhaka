@@ -77,5 +77,6 @@ background-image: url(assets/bg\ pizarra\ compress.jpg);
     margin-top: 20px;
     gap: 20px;
     padding-bottom:50px;
+    padding: 0 20px;
   }
 }
