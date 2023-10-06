@@ -70,7 +70,7 @@ background-image: url(assets/bg\ pizarra\ compress.jpg);
   span {
     color: goldenrod;
   }
-  .containercomidas {
+  .containerfinal {
     display: flex;
     flex-direction: column;
     max-width: 500px;
