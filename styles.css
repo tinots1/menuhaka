@@ -18,6 +18,7 @@
   }
   .imglogo {
     width: 98%;
+    image-rendering: optimizeQuality;
   }
   .containeropciones {
     display: flex;
