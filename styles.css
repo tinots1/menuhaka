@@ -4,7 +4,7 @@
   margin: 0;
   background-image: url(assets/bg\ pizarra\ compress.jpg);
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
 }
 @font-face {
     font-family:'applegaramond' ;
