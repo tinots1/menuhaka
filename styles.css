@@ -3,17 +3,20 @@
   padding: 0;
   margin: 0;
 }
+
+}
+@font-face {
+    font-family:'applegaramond' ;
+    src: url(assets/AppleGaramond.ttf);
+}
+@media (max-width: 768px) 
+{
 body{
 background-image: url(assets/bg\ pizarra\ compress.jpg);
   background-attachment: fixed;
   background-size: contain;
 height: 200vh;
 }
-@font-face {
-    font-family:'applegaramond' ;
-    src: url(assets/AppleGaramond.ttf);
-}
-@media (max-width: 768px) {
   .containerlogo {
     display: flex;
     justify-content: center;
