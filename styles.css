@@ -13,9 +13,8 @@
 {
 body{
 background-image: url(assets/bg\ pizarra\ compress.jpg);
-  background-attachment: fixed;
+  
   background-size: contain;
-height: 200vh;
 }
   .containerlogo {
     display: flex;
