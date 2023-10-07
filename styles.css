@@ -88,10 +88,11 @@ background-image: url(assets/bg\ pizarra\ compress.jpg);
   footer{
   width: 100%;
   padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
   }
   .linkig{
-    display: flex;
-    justify-content: center;
+  width: fit-content;
   }
   .logoig{
     width: 40px;
