@@ -13,13 +13,11 @@ body{
 background-image: url(assets/bg\ pizarra\ compress.jpg);
   background-size: contain;
 }
-  .containerlogo {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+  .containerlogo{
+   
   }
   .imglogo {
-    width: 98%;
+    width: 100%;
   }
   .containeropciones {
     display: flex;
