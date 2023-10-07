@@ -12,7 +12,10 @@
 body{
 background-image: url(assets/bg\ pizarra\ compress.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
+
+
   .containerlogo{
    
   }
