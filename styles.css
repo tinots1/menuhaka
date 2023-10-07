@@ -85,4 +85,15 @@ background-image: url(assets/bg\ pizarra\ compress.jpg);
   .precio{
     margin-top: 15px;
   }
+    .footer{
+    width: 100%;
+  }
+  .linkig{
+    display: flex;
+    justify-content: center;
+  }
+  .logoig{
+    width: 40px;
+    opacity: calc(45%);
+  }
 }
