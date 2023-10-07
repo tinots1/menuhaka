@@ -2,8 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-image: url(assets/bg\ pizarra\ compress.jpg);
-  background-size: contain;
+  
 }
 @font-face {
     font-family:'applegaramond' ;
@@ -12,7 +11,8 @@
 @media (max-width: 768px) 
 {
 body{
-
+   background-image: url(assets/bg\ pizarra\ compress.jpg);
+  background-size: contain;
 }
 
 
