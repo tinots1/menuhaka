@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-  
+  margin: 0; 
 }
 @font-face {
     font-family:'applegaramond' ;
@@ -14,8 +13,6 @@ body{
    background-image: url(assets/bg\ pizarra\ compress.jpg);
   background-size: contain;
 }
-
-
   .containerlogo{
    
   }
@@ -35,7 +32,7 @@ body{
     justify-content: center;
   }
   h2 {
-    color: whitesmoke;
+   color: goldenrod;
     font-size: 32px;
     padding: 0 10px;
     width: fit-content;
@@ -59,13 +56,13 @@ body{
     display: flex;
     width: inherit;
     position: relative;
-    color: goldenrod;
+    color: whitesmoke;
     border-bottom: 0.5px;
     border-bottom-style: dashed;
     border-bottom-color: whitesmoke ;
   }
   span {
-    color: goldenrod;
+    color: whitesmoke;
   }
   .containerfinal {
     display: flex;
