@@ -103,7 +103,7 @@
   }
   .cara-tragos {
     position: absolute;
-    opacity: 30%;
+    opacity: .2;
     width: 30%;
   }
   .div-cara-bebidas {
@@ -112,14 +112,14 @@
   }
   .cara-bebidas {
     position: absolute;
-    opacity: 30%;
+    opacity: .2;
     width: 20%;
     transform: scaleX(-1);
   }
   .div-cara-minutas {
     position: absolute;
     padding-top: 200px;
-    opacity: 30%;
+    opacity: .2;
   }
   .cara-minutas {
     width: 115%;
