@@ -1,98 +1,128 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0; 
+@font-face {
+  font-family: "browsa";
+  src: url(assets/Browsa.ttf);
 }
 @font-face {
-    font-family:'applegaramond' ;
-    src: url(assets/AppleGaramond.ttf);
+  font-family: "k2d";
+  src: url(assets/K2D-Bold.ttf);
 }
-@media (max-width: 768px) 
-{
-body{
-   background-image: url(assets/bg\ pizarra\ compress.jpg);
-  background-size: contain;
-}
-  .containerlogo{
-   
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
-  .imglogo {
+  body {
+    background-color: rgb(23, 23, 23);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header {
+    margin-top: 30px;
+  }
+  .img-header {
     width: 100%;
+    padding-left: 30px;
   }
-  .containeropciones {
+  .link-ig{
     display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin-top: 90px;
-    gap: 20px;
-    padding: 0 20px;
+    text-decoration: none;
+    gap: 5px;
+    padding-left: 30px;
   }
-  .h2 {
-    display: flex;
-    justify-content: center;
+  .img-ig{
+    width: 25px;
+    padding-bottom: 2px;
+  }
+  .tag-ig{
+    padding-top: 3px;
+    font-family: 'k2d';
+  }
+  .firsth2 {
+    margin-top: 25px;
   }
   h2 {
-   color: goldenrod;
-    font-size: 32px;
-    padding: 0 10px;
-    width: fit-content;
+    color: goldenrod;
+    font-family: "browsa";
+    letter-spacing: 2px;
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 100px;
   }
-  .containerlista {
-    display: flex;
-    justify-content: center;
-  }
-  .lista {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: 10px;
-    gap: 20px;
-    width: 100%; 
-  }
-  li {
-    font-family: 'applegaramond' ;
+  p {
+    display: block;
     font-size: 14px;
-    justify-content: space-between;
-    display: flex;
-    width: inherit;
-    position: relative;
     color: whitesmoke;
-    border-bottom: 0.5px;
-    border-bottom-style: dashed;
-    border-bottom-color: whitesmoke ;
+    font-family: "k2d";
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
   }
   span {
     color: whitesmoke;
+    font-family: "k2d";
+    font-size: 12px;
+    width: fit-content;
   }
-  .containerfinal {
+  .sections {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .options {
+    border-bottom: 0.5px;
+    border-bottom-style: dashed;
+    border-bottom-color: whitesmoke;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+  }
+  .price {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    margin-top: 90px;
-    gap: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 80px;
-    
+    flex-wrap: wrap;
+    text-align: right;
+    width: 20%;
   }
-  .opciones{
-    width: 45%;
+  .aclaracion {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    width: 100%;
   }
-  .precio{
-    margin-top: 15px;
+  #finalsection {
+    margin-bottom: 90px;
   }
-  footer{
-  width: 100%;
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
+  .cara-tragos {
+    position: absolute;
+    opacity: 30%;
+    width: 30%;
   }
-  .linkig{
-  width: fit-content;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  .div-cara-bebidas {
+    display: flex;
+    justify-content: end;
   }
-  .logoig{
-    width: 40px;
-    opacity: calc(45%);
+  .cara-bebidas {
+    position: absolute;
+    opacity: 30%;
+    width: 20%;
+    transform: scaleX(-1);
+  }
+  .div-cara-minutas {
+    position: absolute;
+    padding-top: 200px;
+    opacity: 30%;
+  }
+  .cara-minutas {
+    width: 115%;
   }
 }
+
