@@ -26,24 +26,6 @@
   .img-header {
     width: 95%;
   }
-.ig{
-   width: fit-content;
-   padding-left: 40px;
-  }
-  .link-ig{
-    display: flex;
-    text-decoration: none;
-    color: whitesmoke;
-    gap: 5px;
-  }
-  .tag-ig{
-    font-family: 'k2d';
-    font-size: 13px;
-  }
-  .img-ig{
-    width: 4%;
-    padding-bottom: 2px;
-  }
   .firsth2 {
     margin-top: 25px;
   }
