@@ -20,9 +20,11 @@
   }
   header {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
   }
   .img-header {
-    width: 100%;
+    width: 95%;
   }
 .ig{
    width: fit-content;
