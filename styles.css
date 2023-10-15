@@ -6,18 +6,18 @@
   font-family: "k2d";
   src: url(assets/K2D-Bold.ttf);
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  background-color: rgb(23, 23, 23);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @media (max-width: 768px) {
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
-  body {
-    background-color: rgb(23, 23, 23);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
   header {
     margin-top: 15px;
     display: flex;
@@ -112,4 +112,99 @@
     width: 115%;
   }
 }
+@media (min-width: 767px) and (orientation: landscape){
+  header {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .img-header{
+    width: 78%;
+  }
+  span {
+    color: whitesmoke;
+    font-family: "k2d";
+    font-size: 12px;
+    width: fit-content;
+  }
+  h2{
+    color: goldenrod;
+    font-family: "browsa";
+    letter-spacing: 2px;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 100px;
+  }
+  p {
+    display: block;
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: "k2d";
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+  }
+  .sections {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .options {
+    border-bottom: 0.5px;
+    border-bottom-style: dashed;
+    border-bottom-color: whitesmoke;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    width: 20%;
+  }
+  .aclaracion {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #finalsection {
+    margin-bottom: 90px;
+  }
+  .cara-tragos {
+    position: absolute;
+    opacity: .2;
+    width: 30%;
+  }
+  .div-cara-bebidas {
+    display: flex;
+    justify-content: end;
+  }
+  .cara-bebidas {
+    position: absolute;
+    opacity: .2;
+    width: 20%;
+    transform: scaleX(-1);
+  }
+  .div-cara-minutas {
+    position: absolute;
+    padding-top: 200px;
+    opacity: .2;
+  }
+  .cara-minutas {
+    width: 115%;
+  }
+  }
+
+
+
 
