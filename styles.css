@@ -112,7 +112,7 @@ body {
     width: 115%;
   }
 }
-@media (min-width: 767px) and (orientation: landscape){
+@media (min-width: 420px) and (orientation: landscape){
   header {
     display: flex;
     justify-content: center;
