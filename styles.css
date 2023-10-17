@@ -157,7 +157,7 @@ body {
   .cara-minutas {
     width: 115%;
   }
-  .footer{
+  .footer {
     position: fixed;
     bottom: 0;
     background-color: rgb(23, 23, 23);
@@ -176,14 +176,6 @@ body {
   }
 }
 @media (min-width: 420px) and (orientation: landscape) {
-  header {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  .img-header {
-    width: 78%;
-  }
   span {
     color: whitesmoke;
     font-family: "k2d";
@@ -197,7 +189,6 @@ body {
     font-size: 55px;
     text-align: center;
     padding-bottom: 15px;
-    margin-top: 100px;
   }
   p {
     display: block;
@@ -207,9 +198,49 @@ body {
     letter-spacing: 1.5px;
     margin-bottom: 4px;
   }
+  .header-sp {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .img-header-sp {
+    width: 45%;
+    visibility: visible;
+  }
+  .header-pc {
+    visibility: hidden;
+  }
+  .container-one {
+    display: flex;
+  }
+  .winesh2 {
+    padding-top: 40px;
+  }
+  .container-two {
+    display: flex;
+    padding-top: 90px;
+  }
+  #no-alcohol {
+    margin-top: -100px;
+  }
+  #entradas {
+    margin-top: -20px;
+  }
+  .container-three {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+  #minutas {
+    margin-top: -90px;
+  }
   .sections {
+    width: 50%;
     padding-left: 25px;
     padding-right: 25px;
+    position: inherit;
+    height: fit-content;
   }
   .options {
     border-bottom: 0.5px;
@@ -253,7 +284,7 @@ body {
     justify-content: end;
   }
   .cara-bebidas {
-    position: absolute;
+    width: 30%;
     opacity: 0.2;
     width: 20%;
     transform: scaleX(-1);
@@ -266,7 +297,17 @@ body {
   .cara-minutas {
     width: 115%;
   }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+  }
+  .footer {
+    visibility: hidden;
+  }
 }
+
 
 
 
