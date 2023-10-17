@@ -17,14 +17,58 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.header-sp {
+  width: min-content;
+}
+.img-header-sp {
+  visibility: hidden;
+}
+.header-pc {
+  position: relative;
+  bottom: 515px;
+  display: flex;
+  padding-left: 30px;
+  width: 100%;
+}
+.img-header-pc-contain {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.img-header-pc {
+  width: 10%;
+}
+.navbar {
+  padding-right: 30px;
+  padding-top: 15px;
+}
+.ul-nav {
+  display: flex;
+  gap: 15px;
+}
+.li-nav {
+  list-style-type: none;
+}
+.a-nav {
+  color: whitesmoke;
+  font-family: "k2d";
+  text-decoration: none;
+  width: fit-content;
+}
+.sections {
+  position: relative;
+  bottom: 450px;
+}
 @media (max-width: 768px) {
-  header {
+  .header-sp {
     margin-top: 15px;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
-  .img-header {
-    width: 85%;
+  .img-header-sp {
+    width: 82%;
+    visibility: visible;
   }
   .firsth2 {
     margin-top: 35px;
@@ -51,6 +95,116 @@ body {
     font-family: "k2d";
     font-size: 12px;
     width: fit-content;
+  }
+  .sections {
+    padding-left: 70px;
+    padding-right: 70px;
+    position: inherit;
+  }
+  .options {
+    border-bottom: 0.5px;
+    border-bottom-style: dashed;
+    border-bottom-color: whitesmoke;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    width: 20%;
+  }
+  .aclaracion {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #finalsection {
+    margin-bottom: 90px;
+  }
+  .cara-tragos {
+    position: absolute;
+    opacity: 0.2;
+    width: 30%;
+  }
+  .div-cara-bebidas {
+    display: flex;
+    justify-content: end;
+  }
+  .cara-bebidas {
+    position: absolute;
+    opacity: 0.2;
+    width: 20%;
+    transform: scaleX(-1);
+  }
+  .div-cara-minutas {
+    position: absolute;
+    padding-top: 200px;
+    opacity: 0.2;
+  }
+  .cara-minutas {
+    width: 115%;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+  }
+  .navbar {
+    display: flex;
+    gap: 308px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+  }
+  .img-nav {
+    width: 40px;
+  }
+}
+@media (min-width: 420px) and (orientation: landscape) {
+  header {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .img-header {
+    width: 78%;
+  }
+  span {
+    color: whitesmoke;
+    font-family: "k2d";
+    font-size: 12px;
+    width: fit-content;
+  }
+  h2 {
+    color: goldenrod;
+    font-family: "browsa";
+    letter-spacing: 2px;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 100px;
+  }
+  p {
+    display: block;
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: "k2d";
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
   }
   .sections {
     padding-left: 25px;
@@ -90,7 +244,7 @@ body {
   }
   .cara-tragos {
     position: absolute;
-    opacity: .2;
+    opacity: 0.2;
     width: 30%;
   }
   .div-cara-bebidas {
@@ -99,111 +253,20 @@ body {
   }
   .cara-bebidas {
     position: absolute;
-    opacity: .2;
+    opacity: 0.2;
     width: 20%;
     transform: scaleX(-1);
   }
   .div-cara-minutas {
     position: absolute;
     padding-top: 200px;
-    opacity: .2;
+    opacity: 0.2;
   }
   .cara-minutas {
     width: 115%;
   }
 }
-@media (min-width: 420px) and (orientation: landscape){
-  header {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  .img-header{
-    width: 78%;
-  }
-  span {
-    color: whitesmoke;
-    font-family: "k2d";
-    font-size: 12px;
-    width: fit-content;
-  }
-  h2{
-    color: goldenrod;
-    font-family: "browsa";
-    letter-spacing: 2px;
-    font-size: 55px;
-    text-align: center;
-    padding-bottom: 15px;
-    margin-top: 100px;
-  }
-  p {
-    display: block;
-    font-size: 14px;
-    color: whitesmoke;
-    font-family: "k2d";
-    letter-spacing: 1.5px;
-    margin-bottom: 4px;
-  }
-  .sections {
-    padding-left: 100px;
-    padding-right:100px;
-  }
-  .options {
-    border-bottom: 0.5px;
-    border-bottom-style: dashed;
-    border-bottom-color: whitesmoke;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .name {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    flex-direction: column;
-  }
-  .price {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: right;
-    width: 20%;
-  }
-  .aclaracion {
-    display: flex;
-    justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  #finalsection {
-    margin-bottom: 90px;
-  }
-  .cara-tragos {
-    position: absolute;
-    opacity: .2;
-    width: 30%;
-  }
-  .div-cara-bebidas {
-    display: flex;
-    justify-content: end;
-  }
-  .cara-bebidas {
-    position: absolute;
-    opacity: .2;
-    width: 20%;
-    transform: scaleX(-1);
-  }
-  .div-cara-minutas {
-    position: absolute;
-    padding-top: 200px;
-    opacity: .2;
-  }
-  .cara-minutas {
-    width: 115%;
-  }
-  }
+
 
 
 
