@@ -166,13 +166,13 @@ body {
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0px;
+    padding-bottom: 7px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 6px;
+    padding-top: 10px;
   }
   .img-nav {
-    width: 40px;
+    width: 35px;
   }
 }
 @media (min-width: 420px) and (orientation: landscape) {
