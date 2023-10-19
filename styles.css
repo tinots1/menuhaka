@@ -14,9 +14,7 @@
   scroll-behavior: smooth;
 }
 body {
-    /* background-color: rgb(23, 23, 23); */
-  background-image: url(assets/bg.webp);
-  background-attachment: fixed;
+  background-color: rgb(23, 23, 23);
   background-size: cover;
   background-repeat: no-repeat;
 }
